@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Raleway:wght@400;700&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+body{
+    margin: 0;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;    
+}
+header{
+    background-color:hsl(217, 28%, 15%);
+}
+.top-nav{
+    padding: 20px 40px;
+}
+.logo img{
+    width: 150px;
+}
+.nav{
+    float: right;
+    margin-top: 15px;
+}
+.nav a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 25px;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 0.9rem;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.hero {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.hero .illus-int{
+    margin: auto;
+
+}
+.hero h1{
+    font-size: 2.6rem;
+    margin-top: 40px;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+}
+.hero p{
+    margin: auto;
+    margin-top: 60px;
+    font-size: 1.0rem;
+    line-height: 1.8rem;
+    font-family: 'Raleway', sans-serif; 
+    width: 40%;
+}
+.hero .foot-img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+    display: block; 
+    z-index: 1;
+}
+.hero div{
+    z-index: 3;
+    position: relative;
+}
+.hero button{
+    width: 230px;
+    height: 45px;
+    color: #FFF;
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 30px;
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.hero button:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+main {
+    background-color: hsl(218, 28%, 13%);
+    margin-top: -1px;
+}
+section div.grid{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 80px ;
+}
+section .grid .side{
+    width: 45%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+section .grid .side p{
+    width: 80%;
+    font-size: 0.89rem;
+    line-height: 1.4rem;
+    margin: auto;
+}
+
+section.cta{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 70px;
+}
+.cta .cta-img{
+    width: 50%;
+    text-align: center;
+}
+.cta .cta-img img{
+    width: 80%;
+    margin: auto;
+}
+.cta .cta-desc{
+    width: 50%;
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 70px;
+}
+.cta .cta-desc h2{
+    font-size: 2.5rem;
+}
+.cta .cta-desc p{
+    font-size: 0.9rem;
+    width: 85%;
+    line-height: 1.5rem;
+}
+.cta .cta-desc a{
+    font-size: 0.9rem;
+    width: 85%;
+    line-height: 1.5rem;
+    color: #FFF;
+    text-decoration: none;
+    position: relative;
+}
+.cta .cta-desc a:hover{
+    text-decoration: underline;
+    color:hsl(198, 60%, 50%);
+}
+.cta .cta-desc a img{
+    position: absolute;
+    top: 1px;
+    margin-left: 7px;
+}
+.testimonies{
+    padding: 20px 70px;
+    padding-top: 90px;
+}
+.testimonies .quote{
+    margin-left: -10px;
+}
+.test-grids{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -12px;
+    margin-bottom: 100px;
+}
+div.test-grid{
+    width: 28%;
+    background-color: rgb(32, 42, 60);
+    box-shadow: 10px 10px  #202a3c36 ;
+    padding: 20px;
+}
+div.test-grid .test-desc{
+    font-size: 1rem;
+    line-height: 1.4rem;
+    width: 95%;
+}
+div.test-grid img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.details img{
+    margin-right: 5px;
+}
+.details div{
+    display: inline-block;
+}
+.details div h5{
+    margin-bottom: 0;
+}
+.details div p{
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 0.8rem;
+}
