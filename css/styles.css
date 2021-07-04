@@ -346,7 +346,7 @@ footer img.logo{
         margin: auto;
     }
 }
-@media (max-width: 375px){
+@media (max-width: 414px){
     .foot .address{
         width: 100%;
     }
