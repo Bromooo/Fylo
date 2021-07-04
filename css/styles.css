@@ -190,7 +190,7 @@ div.test-grid img{
 }
 div.access{
     width: 50%;
-    padding: 35px 45px 15px 45px;
+    padding: 25px 45px 25px 45px;
     margin: auto;
     margin-bottom: -70px;
     text-align: center;
@@ -199,6 +199,34 @@ div.access{
     position: relative;
     box-shadow: 7px 7px  #00000027 ;
 }
+.access h1{
+    font-weight: 700;
+}
+.access p{
+    font-size: 0.8rem;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.access input{
+    border-radius: 30px;
+    height: 35px;
+    width: 375px;
+    border: none;
+    margin-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.access button{
+    border-radius: 30px;
+    border: none;
+    width: 190px;
+    height: 35px;
+    font-size: 0.65rem;
+    color: #FFF;
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 30px;
+}
 footer{
     background-color: hsl(216, 53%, 9%);
     padding: 100px 80px 20px 80px;
@@ -206,3 +234,187 @@ footer{
 footer img.logo{
     width: 130px;
 }
+.foot{
+    display: flex;
+    margin-top: 40px;
+}
+.foot div{
+    width: 18%;
+    margin-right: 30px;
+}
+.foot .address{
+    width: 35%;
+}
+
+.address p{
+    width: 80%;
+}
+.foot p{
+    display: -webkit-inline-box;
+    font-size: 0.8rem;
+    
+}
+.foot a{
+    color: #FFF;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+.foot a:hover{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.foot img{
+    margin-bottom: -5px;
+    margin-right: 20px;
+}
+.social{
+    text-align: center;
+}
+.social span{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    margin-right: 7px;
+}
+.social i{
+    margin-top: 7px;
+}
+.social span:hover, .social i:hover{
+    border-color: hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);
+}
+.about,.contact,.social{
+    padding-top: 10px;
+}
+
+/* iPad responsiveness */
+@media (max-width: 768px){
+    .hero h1{
+        width: 80%;
+        margin: auto;
+    }
+    .hero p{
+        width: 70%;
+    }
+    section.cta{
+        display: block;
+    }
+    .cta .cta-img{
+        width: 100%;
+    }
+    .cta .cta-desc{
+        width: 100%;
+    }
+    .testimonies .quote{
+        margin-left: 40px;
+    }
+    .test-grids{
+    display: block;
+    }
+    div.test-grid{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .access input, .access button{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    div.access{
+        margin-bottom: -175px;
+    }
+    footer{
+        padding-top: 275px;
+    }
+    .foot{
+        display: block;
+    }
+    .foot div{
+        width: 80%;
+        margin-bottom: 35px;
+    }
+    .address p{
+        width: 100%;
+    }
+    .foot div.social{
+        margin: auto;
+    }
+}
+@media (max-width: 375px){
+    .foot .address{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .address p{
+        width: 82%;
+    }
+    .hero .illus-int {
+        margin: auto;
+        width: 100%;
+    }
+    .nav{
+        margin-top: 0;
+    }
+    .logo img{
+        width: 5.5rem;
+    }
+    .nav a{
+        margin-left: 13px;
+    }
+    .hero h1 {
+        width: 90%;
+        margin: auto;
+    }
+    .hero h1 {
+        font-size: 1.6rem;
+    }
+    .hero p {
+        width: 85%;
+        font-size: 0.94rem;
+    }
+    section div.grid {
+        display:block;
+        width: 90%;
+    }
+    section .grid .side {
+        width: 100%;
+        margin-bottom: 90px;
+    }
+    section.cta{
+        padding: 20px 30px;
+    }
+    .cta .cta-desc {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .cta .cta-desc h2{
+        font-size: 1.2rem;
+    }
+    .cta .cta-desc p{
+        width:100%;
+    }
+    div.test-grid {
+        width: 85%;
+        padding: 15px;
+    }
+    .testimonies {
+        padding: 20px 25px;
+    }
+    .testimonies .quote {
+        margin-left: 10px;
+        width: 33px;
+    }
+    footer{
+        padding: 275px 35px 50px 35px;
+    }
+}
+
