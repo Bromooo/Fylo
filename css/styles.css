@@ -416,5 +416,22 @@ footer img.logo{
     footer{
         padding: 275px 35px 50px 35px;
     }
+    div.access {
+        width: 80%;
+        padding: 25px 25px 25px 25px;
+    }
+    .access p {
+    font-size: 0.8rem;
+    width: 100%;
+    }
+    .access button{
+        width: 90%;
+    }
+    .access input{
+        width: 70%;
+    }
+    .top-nav {
+        padding: 20px 15px;
+    }
 }
 
